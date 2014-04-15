@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     WCNSS_qcom_cfg \
     WCNSS_qcom_wlan_nv \
     thermald_conf \
+    DxHdcp \
     DxHDCP_cfg \
     egl \
     eglsubAndroid \
