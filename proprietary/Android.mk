@@ -786,6 +786,17 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/etc/firmware/wlan/prima
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := DxHDCP_cfg
+LOCAL_MODULE_OWNER := Sony Mobile
+LOCAL_SRC_FILES := etc/DxHDCP.cfg
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_STEM := DxHDCP
+LOCAL_MODULE_SUFFIX := .cfg
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT)/etc
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := thermald_conf
 LOCAL_MODULE_OWNER := Sony Mobile
 LOCAL_SRC_FILES := etc/thermald.conf
